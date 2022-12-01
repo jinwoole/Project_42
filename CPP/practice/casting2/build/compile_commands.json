@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/jinwoole/CPP/practice/casting2/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/casting2.dir/main.cpp.o -c /Users/jinwoole/CPP/practice/casting2/main.cpp",
+  "file": "/Users/jinwoole/CPP/practice/casting2/main.cpp"
+}
+]

@@ -1,0 +1,88 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+alloc_processes	processes.c	/^int	alloc_processes(t_shell *shell)$/;"	f
+brackets_check	error.c	/^static int	brackets_check(char *line, char c)$/;"	f	file:
+cd_builtin	cd_builtin.c	/^char	**cd_builtin(char **env, char **command_split,$/;"	f
+cd_builtin_error	cd_builtin.c	/^static int	cd_builtin_error(char *command_split, int err, t_shell *shell)$/;"	f	file:
+change_env	mom_builtins.c	/^static void	change_env(t_shell **shell, char **var,$/;"	f	file:
+check_builtins_child	child_builtins.c	/^void	check_builtins_child(t_shell **sh, int id)$/;"	f
+check_builtins_mother	mom_builtins.c	/^void	check_builtins_mother(t_shell **shell, int id)$/;"	f
+check_empty_pipe	error_2.c	/^int	check_empty_pipe(char **orders)$/;"	f
+check_error	error.c	/^int	check_error(char *line)$/;"	f
+check_line_empty	error_2.c	/^int	check_line_empty(char *line)$/;"	f
+check_null_pipe	error_2.c	/^int	check_null_pipe(char *line)$/;"	f
+check_quotes	quote.c	/^int	check_quotes(char *s, int *index)$/;"	f
+check_two_pipe	error_2.c	/^int	check_two_pipe(char *line)$/;"	f
+child_process	processes.c	/^void	child_process(t_ch *child, t_shell *shell)$/;"	f
+chop_command	child_info.c	/^char	*chop_command(t_ch *ch, int *i, char *order)$/;"	f
+chop_files	child_info.c	/^void	chop_files(t_ch *ch, char c, int *i, char *order)$/;"	f
+classify_order	child_info.c	/^void	classify_order(t_ch *ch, char *order)$/;"	f
+clean_commands	clean_command.c	/^void	clean_commands(t_shell *shell, t_ch *child)$/;"	f
+close_pipes	execute.c	/^void	close_pipes(t_shell *shell)$/;"	f
+convert_array_to_string	utils.c	/^char	*convert_array_to_string(char **array)$/;"	f
+convert_list_array	export_unset.c	/^char	**convert_list_array(t_shell **shell)$/;"	f
+count_nbr_commands	clean_command.c	/^void	count_nbr_commands(t_ch *child)$/;"	f
+count_peaks	clean_command.c	/^void	count_peaks(int *nbr_file, char c, t_peak **file_t, char *order)$/;"	f
+create_lists	export_unset.c	/^void	create_lists(t_shell *shell, int replace)$/;"	f
+create_processes	processes.c	/^void	create_processes(t_shell *shell)$/;"	f
+create_terminal	terminal.c	/^int	create_terminal(t_shell *shell)$/;"	f
+decode_quotes	quote.c	/^void	decode_quotes(t_shell *shell, char **str, int *i, int *start)$/;"	f
+echo_builtin	child_builtins.c	/^void	echo_builtin(char **command_split)$/;"	f
+env_bu	child_builtins.c	/^void	env_bu(char **env, int nbr_command, int check)$/;"	f
+exe_command	execute.c	/^void	exe_command(t_shell *shell, int id)$/;"	f
+exit_builtin	mom_builtins.c	/^static void	exit_builtin(char **command_split,$/;"	f	file:
+exit_builtin_child	child_builtins.c	/^void	exit_builtin_child(char **command_split, int nbr_command)$/;"	f
+expand_dollar	dollar.c	/^char	*expand_dollar(t_shell *shell, char *str, int *i)$/;"	f
+expanded_return	dollar.c	/^static char	*expanded_return(t_shell *shell, char *dollar_var)$/;"	f	file:
+fill_dollar	dollar.c	/^char	*fill_dollar(t_shell *shell, int *i, char *array)$/;"	f
+fill_new_array	quote.c	/^char	*fill_new_array(char *array, int *i, char *new_array, int start)$/;"	f
+fill_quote_dollar	quote.c	/^char	**fill_quote_dollar(char **array, t_shell *shell, int nbr_array, int ch)$/;"	f
+fill_quote_utils	quote.c	/^void	fill_quote_utils(int *ch, t_shell *shell, int *i)$/;"	f
+filter_unset	clean_command.c	/^int	filter_unset(char *var)$/;"	f
+find_equal_char	mom_builtins.c	/^static void	find_equal_char(char **s, t_shell *shell)$/;"	f	file:
+free_and_init	terminal.c	/^void	free_and_init(t_shell *shell)$/;"	f
+free_double	utils.c	/^void	free_double(char **s, int check)$/;"	f
+ft_fill	ft_split_2.c	/^char	**ft_fill(char **p, char *s, char c, int *num_arrays)$/;"	f
+ft_free	terminal.c	/^void	ft_free(void *to_free)$/;"	f
+ft_freelist	utils.c	/^void	ft_freelist(t_list **head)$/;"	f
+ft_freepointer	ft_split_2.c	/^char	**ft_freepointer(char **p, int *num_arrays)$/;"	f
+ft_num_arrays	ft_split_2.c	/^void	ft_num_arrays(char *s, char c, int *nbr_array)$/;"	f
+ft_print_return	cd_builtin.c	/^static char	**ft_print_return(int err, t_shell *shell)$/;"	f	file:
+ft_split_2	ft_split_2.c	/^char	**ft_split_2(char const *s, char c, int *nbr_array)$/;"	f
+ft_strcmp_len	utils.c	/^int	ft_strcmp_len(char *env, char *var)$/;"	f
+ft_substr_strjoin	utils.c	/^char	*ft_substr_strjoin(char *to_sub, char *to_join, int start, int end)$/;"	f
+get_child_info	child_info.c	/^void	get_child_info(t_shell *shell)$/;"	f
+get_environment	init.c	/^void	get_environment(t_env *my_env, char **env)$/;"	f
+get_exe_path	path.c	/^char	*get_exe_path(t_shell *shell, char *command_split)$/;"	f
+get_line	terminal.c	/^char	*get_line(t_shell *shell)$/;"	f
+get_new_path_else	path.c	/^void	get_new_path_else(t_shell *shell)$/;"	f
+get_new_paths	path.c	/^void	get_new_paths(char **env, t_shell *sh)$/;"	f
+get_new_vars	cd_builtin.c	/^static char	**get_new_vars(char **new_vars, char *str_path)$/;"	f	file:
+get_real_vars	mom_builtins.c	/^void	get_real_vars(t_shell *shell, char **command_split,$/;"	f
+here_doc	here_doc.c	/^void	here_doc(t_pro *pro, int index, int id)$/;"	f
+here_doc_loop	here_doc.c	/^static void	here_doc_loop(char *limit, int fd)$/;"	f	file:
+init	init.c	/^void	init(t_shell **shell, char **env)$/;"	f
+input	processes.c	/^int	input(t_shell *shell)$/;"	f
+is_redirected	execute.c	/^void	is_redirected(t_pro *pro, int id)$/;"	f
+main	main.c	/^int	main(int argc, char **argv, char **env)$/;"	f
+mother_process	processes.c	/^void	mother_process(t_shell *shell)$/;"	f
+new_filename	here_doc.c	/^static void	new_filename(t_pro *pro, int index, int id)$/;"	f	file:
+open_quote_check	error.c	/^static int	open_quote_check(char *line)$/;"	f	file:
+printf_error	error_2.c	/^void	printf_error(char *s, int err, t_shell *shell)$/;"	f
+pwd_builtin	child_builtins.c	/^void	pwd_builtin(void )$/;"	f
+re_in_out	execute.c	/^void	re_in_out(t_pro *pro, int in_out, int index, int id)$/;"	f
+re_pipe	execute.c	/^void	re_pipe(t_shell *shell, int id)$/;"	f
+replace_dollar	dollar.c	/^int	replace_dollar(char **str, int start, int len, char *replace)$/;"	f
+replace_env	export_unset.c	/^void	replace_env(t_shell *shell, int replace)$/;"	f
+replace_first	export_unset.c	/^int	replace_first(t_list **head_env, t_list *temp_var, int replace)$/;"	f
+replace_repeated	export_unset.c	/^int	replace_repeated(t_list **head_env, t_list *temp_var, int replace)$/;"	f
+return_error	cd_builtin.c	/^static char	**return_error(t_shell *shell, char **env, int a)$/;"	f	file:
+sig_handler	terminal.c	/^void	sig_handler(int signum)$/;"	f
+special_paths	path.c	/^char	*special_paths(char **env, char **command)$/;"	f
+special_paths_back	path.c	/^static char	*special_paths_back(char **env, char **command, char *find)$/;"	f	file:
+status_error	error.c	/^void	status_error(char *str, int err)$/;"	f
+three_brackets_check	error.c	/^static int	three_brackets_check(char *line, char c, int *i)$/;"	f	file:

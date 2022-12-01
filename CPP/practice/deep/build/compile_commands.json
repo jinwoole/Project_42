@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/jinwoole/Desktop/deep/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/deep.dir/main.cpp.o -c /Users/jinwoole/Desktop/deep/main.cpp",
+  "file": "/Users/jinwoole/Desktop/deep/main.cpp"
+},
+{
+  "directory": "/Users/jinwoole/Desktop/deep/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/deep.dir/Class.cpp.o -c /Users/jinwoole/Desktop/deep/Class.cpp",
+  "file": "/Users/jinwoole/Desktop/deep/Class.cpp"
+}
+]

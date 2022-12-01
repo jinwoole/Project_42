@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/jinwoole/CPP/casting/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/polymorphism.dir/main.cpp.o -c /Users/jinwoole/CPP/casting/main.cpp",
+  "file": "/Users/jinwoole/CPP/casting/main.cpp"
+},
+{
+  "directory": "/Users/jinwoole/CPP/casting/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -o CMakeFiles/polymorphism.dir/Circle.cpp.o -c /Users/jinwoole/CPP/casting/Circle.cpp",
+  "file": "/Users/jinwoole/CPP/casting/Circle.cpp"
+}
+]
